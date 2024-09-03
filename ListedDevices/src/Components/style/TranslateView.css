@@ -1,0 +1,56 @@
+.translation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+}
+
+.translation-container * {
+  color: #212529;
+}
+
+.MuiButtonBase-root {
+  color: #212529;
+}
+
+.translation-container textarea {
+  color: #ffffff;
+  background-color: #212529;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 100px;
+  padding: 1rem;
+  font-size: 1rem;
+  resize: none;
+}
+
+.translation-container .custom-floating-label label {
+  color: #ffffff;
+}
+
+.translation-container .custom-floating-label .form-select,
+.translation-container .custom-floating-label .form-select option {
+  color: #212529 !important;
+}
+
+.translation-container .translation-button,
+.translation-container .pronunciation-button {
+  color: #db3333;
+  background-color: #212529;
+  align-self: flex-end;
+}
+
+.translation-paper {
+  width: 60%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #80181865;
+}
+
+.translated-text {
+  color: #212529;
+}
